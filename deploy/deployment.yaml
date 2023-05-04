@@ -18,7 +18,7 @@ spec:
         app: accounts
     spec:
       containers:
-      - image: IMAGE_NAME_HERE ## us.icr.io/sn-labs-gmuimba/accounts:1
+      - image: IMAGE_NAME_HERE
         name: accounts
         resources: {}
 
@@ -40,3 +40,5 @@ spec:
               secretKeyRef:
                 name: postgresql
                 key: database-user
+
+status: {}
